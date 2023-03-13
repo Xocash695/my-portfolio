@@ -21,8 +21,7 @@ export default function Socials() {
 
     return (
         <>
-
-            <h1> Akash's Socials</h1>
+            <h1> Akash&apos;s Socials</h1>
             <Link className="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/AkashKallumkal?ref_src=twsrc%5Etfw">Akash Kallumkal</Link>
             <Box
                 component="img"
