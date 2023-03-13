@@ -4,14 +4,15 @@ import styles from './page.module.css'
 import Box from '@mui/material/Box';
 import Container from "@mui/material/Container";
 import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
+import Socials from "./socials";
 
-const source_code_pro = Source_Code_Pro({ subsets: ['latin'], style: 'italic', weight: '300', })
+const source_code_pro = Source_Code_Pro({ subsets: ['latin'], style: 'italic', weight: '300' })
 
 export default function Home() {
   return (
     <>
-      <Container
+    <main className={source_code_pro.className}> 
+    <Container
       sx={{
         maxWidth: "sm",
         m: "5"
@@ -25,7 +26,7 @@ export default function Home() {
           }}
 
         >
-          <h1 className={source_code_pro.className}>Introducing Akash Kallumkal</h1>
+          <h1 >Introducing Akash Kallumkal</h1>
           <Box
             component="img"
             sx={{
@@ -38,7 +39,9 @@ export default function Home() {
             src="akashkglasses.png"
           />
         </Box>
+        <Socials/>
       </Container>
+    </main>
     </>
   )
 }

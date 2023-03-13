@@ -72,7 +72,6 @@ export default function Navbar(props: Props) {
     display="flex"
     justifyContent="space-between"
     alignContent="center"
-
     >
       <CssBaseline />
       <AppBar component="nav" style={{ background: '#2E3B55', borderRadius:'16px'}}>
