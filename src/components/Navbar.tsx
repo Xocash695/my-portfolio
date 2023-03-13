@@ -66,13 +66,13 @@ export default function Navbar(props: Props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    
+
+  
     <Box
     display="flex"
     justifyContent="space-between"
     alignContent="center"
-    py={4}
-    px={5}
+
     >
       <CssBaseline />
       <AppBar component="nav" style={{ background: '#2E3B55', borderRadius:'16px'}}>
