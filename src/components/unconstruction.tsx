@@ -10,7 +10,7 @@ export default function Unconstruction() {
   const [open, setOpen] = React.useState(true);
 
   return (
-    <Box sx={{ width: '50%', mt: 10,}}>
+    <Box sx={{ width: 'auto', mt: 10,}}>
       <Collapse in={open}>
         <Alert
           severity="warning"
