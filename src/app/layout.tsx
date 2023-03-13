@@ -1,8 +1,7 @@
 "use client"
 import './globals.css'
-import Construction from "@/components/unconstruction";
+import Construction from "@/components/Unconstruction";
 import Navbar from "@/components/Navbar";
-import Container from '@mui/material/Container';
 export default function RootLayout({
   children,
 }: {
